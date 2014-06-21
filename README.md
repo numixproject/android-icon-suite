@@ -10,10 +10,10 @@ Simply install the app from [Google Play](https://play.google.com/store/apps/det
 
 ### Building
 Our code is designed for Android Studio. To build it correctly:
-1. Install Android Studio;
-2. Click on Open Project;
-3. Select MainActivity22 folder;
-4. Enjoy!
+- Install Android Studio;
+- Click on Open Project;
+- Select MainActivity22 folder;
+- Enjoy!
 
 
 Licensed under the GPL-3.0+
