@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/home/paolo/studio/Fold/circle/MainActivity22/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-bfe6379f31d17615f5ca4b83bd0a7235fba0720f.jar"
+        jar="/usr/share/android-studio/data/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/home/paolo/studio/Fold/circle/MainActivity22/app/build/intermediates/pre-dexed/debug/pkrequestmanager-0162d8fead7be7967a7a966b1cf0bea5fae0bf83.jar"
+        jar="/home/paolo/studio/Fold/circle/MainActivity22/app/libs/pkrequestmanager.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="39e3515bb2a7b29ff5c5e91f8d31e65565fb47e4"/>
+    <item
+        dex="/home/paolo/studio/Fold/circle/MainActivity22/app/build/intermediates/pre-dexed/debug/classes-8402a29c79e4375bfcf1f531b4526a30e3bb939c.jar"
+        jar="/home/paolo/studio/Fold/circle/MainActivity22/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="af64527b748983a75de9c0756e9768b56b240a49"/>
+
+</pre-dex-items>

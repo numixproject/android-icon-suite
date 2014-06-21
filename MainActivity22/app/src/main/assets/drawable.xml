@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 
+    	Specify every icon to be shown in the manual icon picker seen
+        when long-pressing on an icon and selecting Edit then tapping
+        the icon
+    -->
+
+    <!-- 
+    	Optionally you can add category dividers,
+        the organization and names of these categories is up to you
+    -->
+    <category title="SMS" />
+	    <item drawable="ic_sms_red" />
+	    <item drawable="ic_sms_green" />
+	    <item drawable="ic_sms_blue" />
+
+    <category title="Blue" />
+	    <item drawable="ic_jellybean_blue" />
+	    <item drawable="ic_browser_blue" />
+	    <item drawable="ic_email_blue" />
+	    <item drawable="ic_phone_blue" />
+	    <item drawable="ic_sms_blue" />
+
+
+    <!-- 
+    	Generaly you should list every icon here, but for this demo we won't 
+    	These can be named whatever you want but make sure your drawable names match 
+    -->
+	   
+	<category title="All" />
+       <item drawable="google_adsense"/>
+       <item drawable="google_authenticator"/>
+       <item drawable="google_calendar"/>
+       <item drawable="google_car_home"/>
+       <item drawable="google_chrome"/>
+       <item drawable="google_chromecast"/>
+       <item drawable="google_cloud_print"/>
+       <item drawable="google_currents"/>
+       <item drawable="google_drive"/>
+       <item drawable="google_earth"/>
+       <item drawable="google_finance"/>
+       <item drawable="google_glass"/>
+       <item drawable="google_goggles"/>
+       <item drawable="google_hangouts"/>
+       <item drawable="google_hangouts1"/>
+       <item drawable="google_io"/>
+       <item drawable="google_keep"/>
+       <item drawable="google_keep1"/>
+       <item drawable="google_keyboard"/>
+       <item drawable="google_launcher"/>
+       <item drawable="google_mail"/>
+       <item drawable="google_maps"/>
+       <item drawable="google_navigation"/>
+       <item drawable="google_offers"/>
+       <item drawable="google_opinion_rewards"/>
+       <item drawable="google_photos"/>
+       <item drawable="google_play_books"/>
+       <item drawable="google_play_games"/>
+       <item drawable="google_play_magazines"/>
+       <item drawable="google_play_movies"/>
+       <item drawable="google_play_music"/>
+       <item drawable="google_play_music1"/>
+       <item drawable="google_play_store"/>
+       <item drawable="google_plus"/>
+       <item drawable="google_plus1"/>
+       <item drawable="google_plus_chat"/>
+       <item drawable="google_primetimetv"/>
+       <item drawable="google_quickoffice"/>
+       <item drawable="google_search"/>
+       <item drawable="google_settings"/>
+       <item drawable="google_settings1"/>
+       <item drawable="google_shopping"/>
+       <item drawable="google_skymaps"/>
+       <item drawable="google_streetview"/>
+       <item drawable="google_talkback"/>
+       <item drawable="google_translate"/>
+       <item drawable="google_tv_remote"/>
+       <item drawable="google_voice"/>
+       <item drawable="google_voice_search"/>
+       <item drawable="google_wallet"/>
+       <item drawable="google_youtube"/>
+       <item drawable="google_youtube1"/>
+
+</resources>

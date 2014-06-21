@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <!-- You can add multiple backs and masks but keep in mind
+    	not all launchers are compatible with adding all of these features -->
+    <iconback 
+    img1="iconback1"
+    img2="iconback2"
+    />
+	
+    <!-- Remove "iconupon" and "iconmask" for better Go Launcher compatibility 
+    	failure to remove these will cause Go launcher to use them incorrectly 
+    	and they will be reversed from every other launcher -->
+    <iconupon 
+    img1="iconupon1"
+    img2="iconupon1"
+    />
+	
+    <iconmask 
+    img1="iconmask1"
+    img2="iconmask2"
+    />
+ 	
+    <!-- This scales the images to fit into your iconback -->
+    <scale factor="1.0" />
+	
+    <!-- NOVA LAUNCHER STUFF -->
+    <item component=":LAUNCHER_ACTION_APP_DRAWER" drawable="app_drawer" />
+    <item component=":BROWSER" drawable="browser" />
+    <item component=":SMS" drawable="sms" />
+    
+    <!-- Add the info for your apps below -->
+	<item component="ComponentInfo{your.icons.name.here/your.icons.name.here.activity.MainActivity}" drawable="icon" />
+	
+</resources>
