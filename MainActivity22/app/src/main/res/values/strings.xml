@@ -19,7 +19,7 @@
 <resources>
 		<!-- Label for app name in launcher -->
 		<!-- Edit these two strings to match your theme name -->
-	<string name="app_name">NUMIX CIRCLE</string>
+	<string name="app_name">Numix Circle</string>
 	<string name="theme_name">Numix Icon Theme - CIRCLE</string>
 	
 		<!-- Apex Previews -->
