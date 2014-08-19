@@ -58,6 +58,25 @@
             android:text="@string/cl_list_2"
             android:textColor="@color/list_desc_color"
             android:textSize="@dimen/list_desc_text" />
+
+        <!-- Changelog 3 -->
+        <TextView
+            android:id="@+id/change3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/left_right_margin"
+            android:text="@string/changelog_3"
+
+            android:textColor="@color/list_title_color"
+            android:textSize="@dimen/list_title_text" />
+
+        <TextView
+            android:id="@+id/change3_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cl_list_3"
+            android:textColor="@color/list_desc_color"
+            android:textSize="@dimen/list_desc_text" />
     </LinearLayout>
 	</ScrollView>
 
@@ -82,6 +101,8 @@
 		    android:background="@drawable/close_pressed"
 		    android:text="@string/close"
 		    android:textSize="@dimen/button_text" />
+
+
 
 	</LinearLayout>
 

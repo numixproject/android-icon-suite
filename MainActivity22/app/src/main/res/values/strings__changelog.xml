@@ -24,6 +24,7 @@
 		<!-- Version Number: Add more or remove some -->
 	<string name="changelog_1">Version 1.0.0</string>
     <string name="changelog_2">Version 1.0.2</string>
+    <string name="changelog_3">Version 1.0.3</string>
 
 
 
@@ -36,4 +37,7 @@
     <!-- Changelog 2 -->
     <string name="cl_list_2">&#8226; Added CM support; /n
     &#8226; Fixed app name.</string>
+    <!-- Changelog 3 -->
+    <string name="cl_list_3">&#8226; Added icon masks.</string>
+
 </resources>

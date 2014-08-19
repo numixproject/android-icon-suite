@@ -2,22 +2,34 @@
 <pre-dex-items>
 
     <item
-        dex="/home/paolo/studio/Fold/circle/MainActivity22/app/build/intermediates/pre-dexed/release/support-v4-19.1.0-bfe6379f31d17615f5ca4b83bd0a7235fba0720f.jar"
-        jar="/usr/share/android-studio/data/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        dex="/home/paolo/studio/Icon Themes/circle/MainActivity22/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-820090ec777e85e5f91abc11b0ce2cdd64f29191.jar"
+        jar="/usr/share/android-studio/data/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
         jumboMode="false"
         revision="19.1.0"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
     <item
-        dex="/home/paolo/studio/Fold/circle/MainActivity22/app/build/intermediates/pre-dexed/release/pkrequestmanager-0162d8fead7be7967a7a966b1cf0bea5fae0bf83.jar"
-        jar="/home/paolo/studio/Fold/circle/MainActivity22/app/libs/pkrequestmanager.jar"
+        dex="/home/paolo/studio/Icon Themes/circle/MainActivity22/app/build/intermediates/pre-dexed/debug/pkrequestmanager-befa52479113efbd1900fb00e2870193292a71d3.jar"
+        jar="/home/paolo/studio/Icon Themes/circle/MainActivity22/app/libs/pkrequestmanager.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="39e3515bb2a7b29ff5c5e91f8d31e65565fb47e4"/>
     <item
-        dex="/home/paolo/studio/Fold/circle/MainActivity22/app/build/intermediates/pre-dexed/release/classes-8402a29c79e4375bfcf1f531b4526a30e3bb939c.jar"
-        jar="/home/paolo/studio/Fold/circle/MainActivity22/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/classes.jar"
+        dex="/home/paolo/studio/Icon Themes/circle/MainActivity22/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-32e078ed385cad13b11e59f625e2218926af7d58.jar"
+        jar="/home/paolo/studio/Icon Themes/circle/MainActivity22/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+    <item
+        dex="/home/paolo/studio/Icon Themes/circle/MainActivity22/app/build/intermediates/pre-dexed/debug/classes-65af4433fdb5ab1747f03bad2ad016b1ba951176.jar"
+        jar="/home/paolo/studio/Icon Themes/circle/MainActivity22/app/build/intermediates/exploded-aar/com.actionbarsherlock/actionbarsherlock/4.4.0/classes.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="af64527b748983a75de9c0756e9768b56b240a49"/>
+    <item
+        dex="/home/paolo/studio/Icon Themes/circle/MainActivity22/app/build/intermediates/pre-dexed/debug/classes-f14def48da600798c9bc95290bc72a58a08e98fa.jar"
+        jar="/home/paolo/studio/Icon Themes/circle/MainActivity22/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
 
 </pre-dex-items>

@@ -67,7 +67,6 @@ public class MainActivity extends SherlockFragmentActivity {
 		super.onCreate(savedInstanceState);
 		
 		prefs = getSharedPreferences(getResources().getString(R.string.theme_name), 0);
-		checkBuild();
 
 		helper = new GlassActionBarHelper().contentLayout(R.layout.gridview_main);
 		setContentView(helper.createView(this));
@@ -80,51 +79,7 @@ public class MainActivity extends SherlockFragmentActivity {
 		.replace(R.id.container, new MainFragment())
 		.commit();
 	}
-	
-	
 
-	/************************************************************************
-	 ******************** This is your Changelog Stuff **********************
-	 ************************************************************************/
-	public void checkBuild() {
-	  int buildNum = prefs.getInt("Build Number", 1);
-	  int currentVersion = 0;
-	  
-	  try {
-	    currentVersion = getPackageManager()
-	    		.getPackageInfo(getPackageName(), 0).versionCode;
-	  }
-	  catch (NameNotFoundException e) {
-	    e.printStackTrace();
-	  }
-	    if(currentVersion > buildNum) {
-	    	  getChangelog().show();
-	    	  Editor editor = prefs.edit();
-	    	  editor.putInt("Build Number", currentVersion);
-	    	  editor.commit();
-	    	}
-	  }
-	
-	public Dialog getChangelog()
-	 {
-	 	final Dialog CDialog = new Dialog(MainActivity.this);
-	 	CDialog.setTitle(getResources().getString(R.string.changelog_title));
-	 	CDialog.setContentView(R.layout.changelog);
-	 	CDialog.setCanceledOnTouchOutside(true);
-	 	CDialog.setCancelable(true);
-	 	 
-	 	Button Close = (Button) CDialog.findViewById(R.id.close);
-	 	Close.setOnClickListener(new View.OnClickListener()
-	 	{
-	 	 @Override
-	 	 public void onClick(View v)
-	 	 {
-	 	 CDialog.dismiss();
-	 	 }
-	 	});
-	 	 
-	 	return CDialog;
-	 }
 
 	/******************************************************************************
 	 ** This code checks if MY OSS is installed on first run. If it is installed **
@@ -231,7 +186,7 @@ public class MainActivity extends SherlockFragmentActivity {
 				 ** Change line 136 with the play store link for your own app if you're 
 				 ** using this feature!
 				 **/
-				boolean installed = Utils.isPackageInstalled("com.numix.wallpapers", MainActivity.this);
+				boolean installed = Utils.isPackageInstalled("com.numix.calculator", MainActivity.this);
 			    if (installed) {
 			    	boolean appInstalled = getSharedPreferences("PREFERENCE", MODE_PRIVATE)
 			    			.getBoolean("appInstalled", true);
