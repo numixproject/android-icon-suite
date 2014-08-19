@@ -136,7 +136,7 @@ public class MainActivity extends SherlockFragmentActivity {
 	
 	{
 		super.onStart();
-		boolean installed = Utils.isPackageInstalled("com.numix.wallpapers", MainActivity.this);
+		boolean installed = Utils.isPackageInstalled("com.numix.calculator", MainActivity.this);
 		
 		// Checking if installed and if its the first run
 	    if (installed) {

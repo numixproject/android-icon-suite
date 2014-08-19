@@ -19,8 +19,8 @@
 <manifest
 		xmlns:android="http://schemas.android.com/apk/res/android"
       	package="com.numix.icons_square"
-      	android:versionCode="1"
-      	android:versionName="1.0.0"
+      	android:versionCode="3"
+      	android:versionName="1.1.0"
       	android:installLocation="auto">
     <!-- android:installLocation is set to "auto"
     change to "internalOnly" if you want it installed to the internal memory -->

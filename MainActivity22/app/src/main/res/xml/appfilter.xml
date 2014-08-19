@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- define masks. Meow <3 -->
+    <iconback
+        img1="bottom"
+        />
+
+    <iconmask
+        img1="mask"
+        />
+
+    <iconupon
+        img1="top"
+    />
+
+    <!-- This scales the images to fit into iconback -->
+    <scale factor="0.6" />
 
     <!-- NOVA LAUNCHER STUFF -->
 		<item component="ComponentInfo{com.adobe.reader/com.adobe.reader.AdobeReader}" drawable="com_adobe_reader"/>
@@ -449,8 +464,9 @@
         <item component="ComponentInfo{com.sony.tvsideview.phone/com.sony.tvsideview.MainActivity}" drawable="com_sony_tvsideview_phone"/>
         <item component="ComponentInfo{com.umonistudio.tile/com.umonistudio.tile.tile}" drawable="com_umonistudio_tile"/>
         <item component="ComponentInfo{mobi.infolife.appbackup/mobi.infolife.appbackup.NewAppBackupActivity}" drawable="mobi_infolife_appbackup_newappbackupactivity"/>
+        <item component="ComponentInfo{com.google.android.apps.docs.editors.slides/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="com_google_android_apps_docs_editors_slides.png"/>
 
     <!-- Add the info for your app below -->
-	<item component="ComponentInfo{com.numix.icons_square/com.numix.icons_square.activity.MainActivity}" drawable="icon" />
+	<item component="ComponentInfo{com.numix.icons_circle/com.numix.icons_circle.activity.MainActivity}" drawable="icon" />
 
 </resources>

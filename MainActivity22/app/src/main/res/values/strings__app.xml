@@ -140,11 +140,11 @@
 	
   		<!-- App Check Stuff -->
 	<string name="alert_start_title">You Are AWESOME!!!</string>
-	<string name="alert_start_desc">You also have our Numix - Wallpapers Free App installed.</string>
-	<string name="error_start_title">So...</string>
-	
+	<string name="error_start_title">Well...</string>
+    <string name="alert_start_desc">You also have our Numix - Calculator App installed.</string>
+
 	<string name="error_start_desc"><![CDATA[
-    It seems you don\'t have the Numix <b>free</b> wallpaper apps installed and we recommend you get it for maximum Numix experience on your device.
+    It seems you don\'t have the Numix <b>free</b> Calculator app installed and we recommend you get it for maximum Numix experience on your device.
     Do you wanna go grab it now?
     ]]></string>
 
