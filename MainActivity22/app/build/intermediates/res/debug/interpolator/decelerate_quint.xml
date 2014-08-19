@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<decelerateInterpolator android:factor="2.5"
+  xmlns:android="http://schemas.android.com/apk/res/android" /><!-- From: file:/home/paolo/studio/Icon%20Themes/square/MainActivity22/app/src/main/res/interpolator/decelerate_quint.xml -->

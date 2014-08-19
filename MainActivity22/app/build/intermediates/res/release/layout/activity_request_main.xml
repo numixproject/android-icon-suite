@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/appList"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true" />
+<!-- From: file:/home/paolo/studio/Icon%20Themes/square/MainActivity22/app/src/main/res/layout/activity_request_main.xml -->

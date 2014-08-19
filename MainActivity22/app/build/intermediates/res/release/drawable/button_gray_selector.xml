@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/pk_blue_dark" android:state_focused="true"/>
+    <item android:drawable="@color/pk_blue_dark" android:state_pressed="true"/>
+    <item android:drawable="@color/pk_gray_lightest"/>
+
+</selector><!-- From: file:/home/paolo/studio/Icon%20Themes/square/MainActivity22/app/src/main/res/drawable/button_gray_selector.xml -->
