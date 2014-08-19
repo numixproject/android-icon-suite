@@ -6,7 +6,7 @@
     android:fitsSystemWindows="true"
     android:background="@color/app_bg" >
 
-    <your.icons.name.here.util.PagerSlidingTabStrip
+    <com.numix.icons_circle.util.PagerSlidingTabStrip
         android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="@dimen/ab_height"
