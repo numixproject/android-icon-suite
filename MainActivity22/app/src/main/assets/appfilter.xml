@@ -100,6 +100,7 @@
 		<item component="ComponentInfo{com.google.android.gallery3d/com.android.gallery3d.app.GalleryActivity}" drawable="com_android_gallery3d"/>
 		<item component="ComponentInfo{com.android.gallery3d/com.android.hwcamera}" drawable="com_android_gallery3d"/>
         <item component="ComponentInfo{com.sec.android.gallery3d/com.sec.android.gallery3d.app.Gallery}" drawable="com_android_gallery3d"/>
+		<item component="ComponentInfo{com.cyngn.gallerynext/com.cyngn.gallerynext.app.GalleryActivity}" drawable="com_android_gallery3d"/>
 		<item component="ComponentInfo{mobi.pixi.music.player.black/mobi.pixi.music.player.MediaBrowserActivity}" drawable="rename_me_best_music_player"/>
 		<item component="ComponentInfo{com.drippler.android.updates/com.drippler.android.updates.SplashActivity}" drawable="rename_me_drippler"/>
         <item component="ComponentInfo{com.drippler.android.updates/com.drippler.android.updates.PreSplash}" drawable="rename_me_drippler"/>
@@ -233,6 +234,7 @@
         <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="com_android_camera"/>
         <item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher}" drawable="com_android_camera"/>
         <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="com_android_camera"/>
+        <item component="ComponentInfo{com.cyngn.cameranext/com.android.camera.CameraLauncher}" drawable="com_android_camera"/>
 		<item component="ComponentInfo{com.android.vending/com.android.vending.AssetBrowserActivity}" drawable="com_android_vending"/>
 		<item component="ComponentInfo{com.google.android.apps.docs.editors.sheets/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="com_google_android_apps_docs_editors_sheets"/>
 		<item component="ComponentInfo{com.google.android.calendar/com.android.calendar.AllInOneActivity}" drawable="com_android_calendar"/>
