@@ -32,7 +32,7 @@
 		    android:background="@color/app_bg"
 		    android:listSelector="@color/transparent"
 		    android:cacheColorHint="@color/transparent" 
-		    tools:context="your.icons.name.here.activity.ApplyLauncherMain" />
+		    tools:context="com.numix.icons_circle.activity.ApplyLauncherMain" />
 
 	    <Button
     		android:id="@+id/btnCancel"

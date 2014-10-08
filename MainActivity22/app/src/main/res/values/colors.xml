@@ -17,7 +17,8 @@
 	<color name="bubble_color">#00000000</color>
 	<color name="drawer_text_color">#FFFFFFFF</color>
 	<color name="desktop_indicator_color">#FFFFFFFF</color>
-    
+
+
     <!-- App colors -->
     <color name="background_tab_pressed">#66AAAAAA</color>
     <color name="background_window">#FFDEDEDE</color>

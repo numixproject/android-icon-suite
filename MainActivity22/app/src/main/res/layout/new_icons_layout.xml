@@ -24,7 +24,7 @@
 	    android:orientation="vertical"
 	    android:padding="@dimen/list_icon"
     	android:gravity="center" 
-    	tools:context="your.icons.name.here.activity.MainActivity" >
+    	tools:context="com.numix.icons_circle.activity.MainActivity" >
 
 			<view.TouchHighlightImageButton
 			    android:id="@+id/thumb_button"

@@ -69,8 +69,6 @@ public class ApplyLauncherFragment extends Fragment {
 				final String AVIATE_ACTION_SET_THEME = "com.tul.aviate.SET_THEME";
 				final String AVIATE_EXTRA_PACKAGE_NAME = "THEME_PACKAGE";
 
-				@SuppressWarnings("unused")
-				MainFragment gridContentT = null;
 
 				switch (position) {
 				case ApplyLauncherAdapter.APEX:

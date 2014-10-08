@@ -3,18 +3,14 @@
     <!-- define masks. Meow <3 -->
     <iconback
         img1="bottom"
+        img2="bottom1"
+        img3="bottom2"
+        img4="bottom3"
+        img5="bottom4"
         />
 
-    <iconupon
-        img1="top"
-        />
-
-    <iconmask
-        img1="mask"
-        />
-
-    <!-- This scales the images to fit into your iconback -->
-    <scale factor="1.2" />
+    <!-- This scales the images to fit into iconback -->
+    <scale factor="0.6" />
 
     <!-- NOVA LAUNCHER STUFF -->
 		<item component="ComponentInfo{com.adobe.reader/com.adobe.reader.AdobeReader}" drawable="com_adobe_reader"/>
@@ -209,7 +205,7 @@
         <item component="ComponentInfo{com.devexpert.weatheradfree/com.devexpert.weatheradfree.view.HomeActivity}" drawable="com_devexpert_weather"/>
 		<item component="ComponentInfo{com.tul.aviate/com.tul.aviator.ui.InviteGateActivity}" drawable="com_tul_aviate"/>
         <item component="ComponentInfo{com.tul.aviate/com.tul.aviator.ui.TourActivity}" drawable="com_tul_aviate"/>
-		<item component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}" drawable="com_android_music"/>
+		<item component="ComponentInfo{com.google.android.music/com.android.music.activitymanagement.TopLevelActivity}" drawable="google_music"/>
 		<item component="ComponentInfo{com.rdio.oi.android.ui/rdio.activities.MainActivity}" drawable="com_rdio_oi_android_ui"/>
 		<item component="ComponentInfo{}" drawable="com_android_gallery3d_alt"/>
 		<item component="ComponentInfo{me.kiip.skeemo/me.kiip.skeemo.ui.MainActivity}" drawable="me_kiip_skeemo"/>
@@ -218,7 +214,7 @@
 		<item component="ComponentInfo{com.android.chrome/com.google.android.apps.chrome.Main}" drawable="com_google_android_apps_chrome"/>
 		<item component="ComponentInfo{com.onelouder.baconreader.premium/com.onelouder.baconreader.FrontPage}" drawable="com_onelouder_baconreader"/>
         <item component="ComponentInfo{com.onelouder.baconreader/com.onelouder.baconreader.LoginActivity}" drawable="com_onelouder_baconreader"/>
-		<item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="com_android_settings"/>
+		<item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="settings"/>
 		<item component="ComponentInfo{com.mojang.minecraftpe/com.mojang.minecraftpe.Minecraft_Market}" drawable="rename_me_minecraft"/>
         <item component="ComponentInfo{com.mojang.minecraftpe/com.mojang.minecraftpe.MainActivity}" drawable="rename_me_minecraft"/>
         <item component="ComponentInfo{com.mojang.minecraftpe/com.mojang.minecraftpe.MainActivity}" drawable="rename_me_minecraft"/>
@@ -464,6 +460,7 @@
         <item component="ComponentInfo{com.sony.tvsideview.phone/com.sony.tvsideview.MainActivity}" drawable="com_sony_tvsideview_phone"/>
         <item component="ComponentInfo{com.umonistudio.tile/com.umonistudio.tile.tile}" drawable="com_umonistudio_tile"/>
         <item component="ComponentInfo{mobi.infolife.appbackup/mobi.infolife.appbackup.NewAppBackupActivity}" drawable="mobi_infolife_appbackup_newappbackupactivity"/>
+        <item component="ComponentInfo{com.google.android.apps.docs.editors.slides/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="com_google_android_apps_docs_editors_slides.png"/>
 
     <!-- Add the info for your app below -->
 	<item component="ComponentInfo{com.numix.icons_circle/com.numix.icons_circle.activity.MainActivity}" drawable="icon" />

@@ -31,4 +31,4 @@
     android:dividerHeight="0dp"
     android:listSelector="@color/transparent"
     android:cacheColorHint="@color/transparent" 
-    tools:context="your.icons.name.here.activity.MainActivity"/>
+    tools:context="com.numix.icons_circle.activity.MainActivity"/>
