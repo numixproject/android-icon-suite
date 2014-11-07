@@ -17,8 +17,10 @@
     </style>
 
     <!-- Application theme. -->
-    <style name="AppTheme" parent="Theme.Sherlock.Light.NoActionBar">
+    <style name="AppTheme" parent="android:Theme.Material.NoActionBar">
         <item name="actionBarStyle">@style/Widget.MyTheme.ActionBar</item>
+        <item name="android:colorPrimaryDark">#d64937</item>
+        <item name="android:navigationBarColor">#222222</item>
         <item name="android:actionBarStyle">@style/Widget.MyTheme.ActionBar</item>
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->  
         </style>

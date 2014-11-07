@@ -464,6 +464,12 @@
         <item component="ComponentInfo{mobi.infolife.appbackup/mobi.infolife.appbackup.NewAppBackupActivity}" drawable="mobi_infolife_appbackup_newappbackupactivity"/>
         <item component="ComponentInfo{com.google.android.apps.docs.editors.slides/com.google.android.apps.docs.app.NewMainProxyActivity}" drawable="com_google_android_apps_docs_editors_slides.png"/>
 
+		<item component="ComponentInfo{org.numixproject.croma/org.numixproject.croma.MainActivity}" drawable="org_numixproject_croma_mainactivity"/>
+		<item component="ComponentInfo{com.google.android.apps.fitness/com.google.android.apps.fitness.welcome.WelcomeActivity}" drawable="rename_me_google_fit"/>
+		<item component="ComponentInfo{com.google.android.apps.inbox/com.google.android.apps.bigtop.activities.InitActivity}" drawable="rename_me_inbox"/>
+
+
+
     <!-- Add the info for your app below -->
 	<item component="ComponentInfo{com.numix.icons_circle/com.numix.icons_circle.activity.MainActivity}" drawable="icon" />
 

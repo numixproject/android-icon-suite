@@ -280,4 +280,9 @@
        <item drawable="com_sony_tvsideview_phone"/>
        <item drawable="com_umonistudio_tile"/>
        <item drawable="mobi_infolife_appbackup_newappbackupactivity"/>
+
+       <item drawable="org_numixproject_croma_mainactivity"/>
+       <item drawable="rename_me_google_fit"/>
+       <item drawable="rename_me_inbox"/>
+
 </resources>
