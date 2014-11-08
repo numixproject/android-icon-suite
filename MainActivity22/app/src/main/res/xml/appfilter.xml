@@ -468,7 +468,8 @@
 		<item component="ComponentInfo{com.google.android.apps.fitness/com.google.android.apps.fitness.welcome.WelcomeActivity}" drawable="rename_me_google_fit"/>
 		<item component="ComponentInfo{com.google.android.apps.inbox/com.google.android.apps.bigtop.activities.InitActivity}" drawable="rename_me_inbox"/>
 
-
+		<item component="ComponentInfo{com.android.settings/com.android.settings.Settings}" drawable="settings"/>
+		<item component="ComponentInfo{com.tumblr/com.tumblr.ui.activity.JumpoffActivity}" drawable="com_tumblr"/>
 
     <!-- Add the info for your app below -->
 	<item component="ComponentInfo{com.numix.icons_circle/com.numix.icons_circle.activity.MainActivity}" drawable="icon" />
