@@ -22,7 +22,7 @@ package com.numix.icons_circle.activity;
 public class MainActivity extends Activity {
 
     // Start page: save your local index in /src/main/assets/www/index.html
-    private final String INDEX = "file:///android_asset/www/index.html";
+    private final String INDEX = "file:///android_asset/website/index.html";
 
     private WebView webView;
 
