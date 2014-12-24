@@ -139,6 +139,7 @@ public class MainActivity extends Activity {
         }
 
         }
+
         @JavascriptInterface
         public void googleplay() {
             String url = "https://play.google.com/store/apps/developer?id=Numix";
