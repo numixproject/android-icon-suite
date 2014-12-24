@@ -1,0 +1,265 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:21:1
+	package
+		ADDED from AndroidManifest.xml:23:8
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:25:8
+	android:versionCode
+		ADDED from AndroidManifest.xml:24:8
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:22:3
+	android:installLocation
+		ADDED from AndroidManifest.xml:26:8
+uses-permission#android.permission.SET_WALLPAPER
+ADDED from AndroidManifest.xml:31:5
+	android:name
+		ADDED from AndroidManifest.xml:31:22
+uses-permission#android.permission.SET_WALLPAPER_HINTS
+ADDED from AndroidManifest.xml:32:5
+	android:name
+		ADDED from AndroidManifest.xml:32:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:35:5
+	android:name
+		ADDED from AndroidManifest.xml:35:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:36:5
+	android:name
+		ADDED from AndroidManifest.xml:36:22
+supports-screens
+ADDED from AndroidManifest.xml:39:5
+	android:largeScreens
+		ADDED from AndroidManifest.xml:43:9
+	android:smallScreens
+		ADDED from AndroidManifest.xml:41:9
+	android:normalScreens
+		ADDED from AndroidManifest.xml:42:9
+	android:xlargeScreens
+		ADDED from AndroidManifest.xml:44:9
+	android:resizeable
+		ADDED from AndroidManifest.xml:45:9
+	android:anyDensity
+		ADDED from AndroidManifest.xml:40:9
+uses-sdk
+ADDED from AndroidManifest.xml:50:5
+MERGED from com.actionbarsherlock:actionbarsherlock:4.4.0:3:3
+MERGED from com.android.support:support-v4:21.0.3:15:5
+MERGED from com.google.android.gms:play-services:6.5.87:18:5
+MERGED from com.android.support:support-v4:21.0.3:15:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:50:42
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:50:15
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+application
+ADDED from AndroidManifest.xml:54:5
+MERGED from com.actionbarsherlock:actionbarsherlock:4.4.0:4:3
+MERGED from com.android.support:support-v4:21.0.3:16:5
+MERGED from com.google.android.gms:play-services:6.5.87:20:5
+MERGED from com.android.support:support-v4:21.0.3:16:5
+	android:label
+		ADDED from AndroidManifest.xml:56:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:55:9
+	android:icon
+		ADDED from AndroidManifest.xml:57:9
+	android:largeHeap
+		ADDED from AndroidManifest.xml:59:9
+	android:theme
+		ADDED from AndroidManifest.xml:58:9
+activity#com.numix.icons_circle.activity.SplashScreenActivity
+ADDED from AndroidManifest.xml:63:9
+	android:label
+		ADDED from AndroidManifest.xml:65:13
+	android:name
+		ADDED from AndroidManifest.xml:64:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:66:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:67:17
+	android:name
+		ADDED from AndroidManifest.xml:67:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:68:17
+	android:name
+		ADDED from AndroidManifest.xml:68:27
+activity#com.numix.icons_circle.activity.MainActivity
+ADDED from AndroidManifest.xml:71:9
+	android:label
+		ADDED from AndroidManifest.xml:72:13
+	android:name
+		ADDED from AndroidManifest.xml:71:19
+activity#com.numix.icons_circle.activity.ApplyLauncherMain
+ADDED from AndroidManifest.xml:77:3
+	android:label
+		ADDED from AndroidManifest.xml:79:13
+	android:theme
+		ADDED from AndroidManifest.xml:80:13
+	android:name
+		ADDED from AndroidManifest.xml:78:8
+activity#com.numix.icons_circle.activity.Wallpaper
+ADDED from AndroidManifest.xml:83:9
+	android:finishOnCloseSystemDialogs
+		ADDED from AndroidManifest.xml:87:13
+	android:label
+		ADDED from AndroidManifest.xml:85:13
+	android:icon
+		ADDED from AndroidManifest.xml:86:13
+	android:name
+		ADDED from AndroidManifest.xml:84:13
+intent-filter#android.intent.action.SET_WALLPAPER+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:88:13
+action#android.intent.action.SET_WALLPAPER
+ADDED from AndroidManifest.xml:95:17
+	android:name
+		ADDED from AndroidManifest.xml:95:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:96:17
+	android:name
+		ADDED from AndroidManifest.xml:96:27
+activity#com.numix.icons_circle.activity.Docks
+ADDED from AndroidManifest.xml:100:9
+	android:label
+		ADDED from AndroidManifest.xml:102:13
+	android:icon
+		ADDED from AndroidManifest.xml:103:13
+	android:name
+		ADDED from AndroidManifest.xml:101:13
+intent-filter#android.intent.action.PICK+android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:104:13
+action#android.intent.action.PICK
+ADDED from AndroidManifest.xml:105:17
+	android:name
+		ADDED from AndroidManifest.xml:105:25
+data
+ADDED from AndroidManifest.xml:107:17
+	android:mimeType
+		ADDED from AndroidManifest.xml:107:23
+activity#com.numix.icons_circle.activity.Icons
+ADDED from AndroidManifest.xml:112:9
+	android:label
+		ADDED from AndroidManifest.xml:114:17
+	android:name
+		ADDED from AndroidManifest.xml:113:5
+intent-filter#android.intent.category.DEFAULT+org.adw.launcher.THEMES
+ADDED from AndroidManifest.xml:115:13
+action#org.adw.launcher.THEMES
+ADDED from AndroidManifest.xml:116:17
+	android:name
+		ADDED from AndroidManifest.xml:116:25
+intent-filter#android.intent.category.DEFAULT+org.adw.launcher.icons.ACTION_PICK_ICON
+ADDED from AndroidManifest.xml:119:13
+action#org.adw.launcher.icons.ACTION_PICK_ICON
+ADDED from AndroidManifest.xml:120:17
+	android:name
+		ADDED from AndroidManifest.xml:120:25
+intent-filter#android.intent.action.MAIN+com.anddoes.launcher.THEME
+ADDED from AndroidManifest.xml:123:13
+category#com.anddoes.launcher.THEME
+ADDED from AndroidManifest.xml:125:17
+	android:name
+		ADDED from AndroidManifest.xml:125:27
+intent-filter#android.intent.action.MAIN+com.teslacoilsw.launcher.THEME
+ADDED from AndroidManifest.xml:127:13
+category#com.teslacoilsw.launcher.THEME
+ADDED from AndroidManifest.xml:129:17
+	android:name
+		ADDED from AndroidManifest.xml:129:27
+intent-filter#android.intent.action.MAIN+com.fede.launcher.THEME_ICONPACK
+ADDED from AndroidManifest.xml:131:13
+category#com.fede.launcher.THEME_ICONPACK
+ADDED from AndroidManifest.xml:133:17
+	android:name
+		ADDED from AndroidManifest.xml:133:27
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+com.tsf.shell.themes
+ADDED from AndroidManifest.xml:135:13
+action#com.tsf.shell.themes
+ADDED from AndroidManifest.xml:137:17
+	android:name
+		ADDED from AndroidManifest.xml:137:25
+intent-filter#android.intent.category.DEFAULT+ginlemon.smartlauncher.BUBBLEICONS+ginlemon.smartlauncher.BUBBLESTYLE+ginlemon.smartlauncher.CLOCKFONTS+ginlemon.smartlauncher.CLOCKS+ginlemon.smartlauncher.THEMES
+ADDED from AndroidManifest.xml:140:13
+action#ginlemon.smartlauncher.THEMES
+ADDED from AndroidManifest.xml:141:17
+	android:name
+		ADDED from AndroidManifest.xml:141:25
+action#ginlemon.smartlauncher.BUBBLESTYLE
+ADDED from AndroidManifest.xml:142:17
+	android:name
+		ADDED from AndroidManifest.xml:142:25
+action#ginlemon.smartlauncher.BUBBLEICONS
+ADDED from AndroidManifest.xml:143:17
+	android:name
+		ADDED from AndroidManifest.xml:143:25
+action#ginlemon.smartlauncher.CLOCKS
+ADDED from AndroidManifest.xml:144:17
+	android:name
+		ADDED from AndroidManifest.xml:144:25
+action#ginlemon.smartlauncher.CLOCKFONTS
+ADDED from AndroidManifest.xml:145:17
+	android:name
+		ADDED from AndroidManifest.xml:145:25
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+com.android.dxtop.launcher.THEME+com.fede.launcher.THEME_ICONPACK+com.rogro.GDE.THEME.1+mobi.bbase.ahome.THEME+org.adw.launcher.THEMES
+ADDED from AndroidManifest.xml:148:13
+action#mobi.bbase.ahome.THEME
+ADDED from AndroidManifest.xml:151:17
+	android:name
+		ADDED from AndroidManifest.xml:151:25
+action#com.rogro.GDE.THEME.1
+ADDED from AndroidManifest.xml:152:17
+	android:name
+		ADDED from AndroidManifest.xml:152:25
+action#com.android.dxtop.launcher.THEME
+ADDED from AndroidManifest.xml:153:17
+	android:name
+		ADDED from AndroidManifest.xml:153:25
+intent-filter#android.intent.category.DEFAULT+com.rogro.GDE.THEME.1+mobi.bbase.ahome.THEME+org.adw.launcher.icons.ACTION_PICK_ICON
+ADDED from AndroidManifest.xml:157:13
+intent-filter#android.intent.category.DEFAULT+cdproductions.crazyicons.TWO
+ADDED from AndroidManifest.xml:163:13
+action#cdproductions.crazyicons.TWO
+ADDED from AndroidManifest.xml:164:17
+	android:name
+		ADDED from AndroidManifest.xml:164:25
+intent-filter#com.daeva112.manager.MAIN+com.daeva112.manager.THEME
+ADDED from AndroidManifest.xml:167:13
+action#com.daeva112.manager.MAIN
+ADDED from AndroidManifest.xml:168:17
+	android:name
+		ADDED from AndroidManifest.xml:168:25
+category#com.daeva112.manager.THEME
+ADDED from AndroidManifest.xml:169:17
+	android:name
+		ADDED from AndroidManifest.xml:169:27
+intent-filter#android.intent.category.DEFAULT+com.gau.go.launcherex.theme
+ADDED from AndroidManifest.xml:171:13
+action#com.gau.go.launcherex.theme
+ADDED from AndroidManifest.xml:172:17
+	android:name
+		ADDED from AndroidManifest.xml:172:25
+activity#com.google.android.gms.ads.AdActivity
+ADDED from AndroidManifest.xml:178:9
+	android:configChanges
+		ADDED from AndroidManifest.xml:179:13
+	android:name
+		ADDED from AndroidManifest.xml:178:19
+provider#com.numix.icons_circle.activity.DocksProvider
+ADDED from AndroidManifest.xml:183:9
+	android:authorities
+		ADDED from AndroidManifest.xml:185:13
+	android:name
+		ADDED from AndroidManifest.xml:184:13
+meta-data#com.google.android.gms.version
+ADDED from com.google.android.gms:play-services:6.5.87:21:9
+	android:value
+		ADDED from com.google.android.gms:play-services:6.5.87:23:13
+	android:name
+		ADDED from com.google.android.gms:play-services:6.5.87:22:13
