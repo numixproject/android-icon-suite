@@ -92,171 +92,171 @@ ADDED from AndroidManifest.xml:68:17
 	android:name
 		ADDED from AndroidManifest.xml:68:27
 activity#com.numix.icons_circle.activity.MainActivity
-ADDED from AndroidManifest.xml:71:9
+ADDED from AndroidManifest.xml:72:9
 	android:label
-		ADDED from AndroidManifest.xml:72:13
+		ADDED from AndroidManifest.xml:73:13
 	android:name
-		ADDED from AndroidManifest.xml:71:19
+		ADDED from AndroidManifest.xml:72:19
 activity#com.numix.icons_circle.activity.ApplyLauncherMain
-ADDED from AndroidManifest.xml:77:3
+ADDED from AndroidManifest.xml:78:3
 	android:label
-		ADDED from AndroidManifest.xml:79:13
-	android:theme
 		ADDED from AndroidManifest.xml:80:13
+	android:theme
+		ADDED from AndroidManifest.xml:81:13
 	android:name
-		ADDED from AndroidManifest.xml:78:8
+		ADDED from AndroidManifest.xml:79:8
 activity#com.numix.icons_circle.activity.Wallpaper
-ADDED from AndroidManifest.xml:83:9
+ADDED from AndroidManifest.xml:84:9
 	android:finishOnCloseSystemDialogs
-		ADDED from AndroidManifest.xml:87:13
+		ADDED from AndroidManifest.xml:88:13
 	android:label
-		ADDED from AndroidManifest.xml:85:13
-	android:icon
 		ADDED from AndroidManifest.xml:86:13
+	android:icon
+		ADDED from AndroidManifest.xml:87:13
 	android:name
-		ADDED from AndroidManifest.xml:84:13
+		ADDED from AndroidManifest.xml:85:13
 intent-filter#android.intent.action.SET_WALLPAPER+android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:88:13
+ADDED from AndroidManifest.xml:89:13
 action#android.intent.action.SET_WALLPAPER
-ADDED from AndroidManifest.xml:95:17
-	android:name
-		ADDED from AndroidManifest.xml:95:25
-category#android.intent.category.DEFAULT
 ADDED from AndroidManifest.xml:96:17
 	android:name
-		ADDED from AndroidManifest.xml:96:27
+		ADDED from AndroidManifest.xml:96:25
+category#android.intent.category.DEFAULT
+ADDED from AndroidManifest.xml:97:17
+	android:name
+		ADDED from AndroidManifest.xml:97:27
 activity#com.numix.icons_circle.activity.Docks
-ADDED from AndroidManifest.xml:100:9
+ADDED from AndroidManifest.xml:101:9
 	android:label
-		ADDED from AndroidManifest.xml:102:13
-	android:icon
 		ADDED from AndroidManifest.xml:103:13
+	android:icon
+		ADDED from AndroidManifest.xml:104:13
 	android:name
-		ADDED from AndroidManifest.xml:101:13
+		ADDED from AndroidManifest.xml:102:13
 intent-filter#android.intent.action.PICK+android.intent.category.DEFAULT
-ADDED from AndroidManifest.xml:104:13
+ADDED from AndroidManifest.xml:105:13
 action#android.intent.action.PICK
-ADDED from AndroidManifest.xml:105:17
+ADDED from AndroidManifest.xml:106:17
 	android:name
-		ADDED from AndroidManifest.xml:105:25
+		ADDED from AndroidManifest.xml:106:25
 data
-ADDED from AndroidManifest.xml:107:17
+ADDED from AndroidManifest.xml:108:17
 	android:mimeType
-		ADDED from AndroidManifest.xml:107:23
+		ADDED from AndroidManifest.xml:108:23
 activity#com.numix.icons_circle.activity.Icons
-ADDED from AndroidManifest.xml:112:9
+ADDED from AndroidManifest.xml:113:9
 	android:label
-		ADDED from AndroidManifest.xml:114:17
+		ADDED from AndroidManifest.xml:115:17
 	android:name
-		ADDED from AndroidManifest.xml:113:5
+		ADDED from AndroidManifest.xml:114:5
 intent-filter#android.intent.category.DEFAULT+org.adw.launcher.THEMES
-ADDED from AndroidManifest.xml:115:13
+ADDED from AndroidManifest.xml:116:13
 action#org.adw.launcher.THEMES
-ADDED from AndroidManifest.xml:116:17
+ADDED from AndroidManifest.xml:117:17
 	android:name
-		ADDED from AndroidManifest.xml:116:25
+		ADDED from AndroidManifest.xml:117:25
 intent-filter#android.intent.category.DEFAULT+org.adw.launcher.icons.ACTION_PICK_ICON
-ADDED from AndroidManifest.xml:119:13
+ADDED from AndroidManifest.xml:120:13
 action#org.adw.launcher.icons.ACTION_PICK_ICON
-ADDED from AndroidManifest.xml:120:17
+ADDED from AndroidManifest.xml:121:17
 	android:name
-		ADDED from AndroidManifest.xml:120:25
+		ADDED from AndroidManifest.xml:121:25
 intent-filter#android.intent.action.MAIN+com.anddoes.launcher.THEME
-ADDED from AndroidManifest.xml:123:13
+ADDED from AndroidManifest.xml:124:13
 category#com.anddoes.launcher.THEME
-ADDED from AndroidManifest.xml:125:17
+ADDED from AndroidManifest.xml:126:17
 	android:name
-		ADDED from AndroidManifest.xml:125:27
+		ADDED from AndroidManifest.xml:126:27
 intent-filter#android.intent.action.MAIN+com.teslacoilsw.launcher.THEME
-ADDED from AndroidManifest.xml:127:13
+ADDED from AndroidManifest.xml:128:13
 category#com.teslacoilsw.launcher.THEME
-ADDED from AndroidManifest.xml:129:17
+ADDED from AndroidManifest.xml:130:17
 	android:name
-		ADDED from AndroidManifest.xml:129:27
+		ADDED from AndroidManifest.xml:130:27
 intent-filter#android.intent.action.MAIN+com.fede.launcher.THEME_ICONPACK
-ADDED from AndroidManifest.xml:131:13
+ADDED from AndroidManifest.xml:132:13
 category#com.fede.launcher.THEME_ICONPACK
-ADDED from AndroidManifest.xml:133:17
+ADDED from AndroidManifest.xml:134:17
 	android:name
-		ADDED from AndroidManifest.xml:133:27
+		ADDED from AndroidManifest.xml:134:27
 intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+com.tsf.shell.themes
-ADDED from AndroidManifest.xml:135:13
+ADDED from AndroidManifest.xml:136:13
 action#com.tsf.shell.themes
-ADDED from AndroidManifest.xml:137:17
+ADDED from AndroidManifest.xml:138:17
 	android:name
-		ADDED from AndroidManifest.xml:137:25
+		ADDED from AndroidManifest.xml:138:25
 intent-filter#android.intent.category.DEFAULT+ginlemon.smartlauncher.BUBBLEICONS+ginlemon.smartlauncher.BUBBLESTYLE+ginlemon.smartlauncher.CLOCKFONTS+ginlemon.smartlauncher.CLOCKS+ginlemon.smartlauncher.THEMES
-ADDED from AndroidManifest.xml:140:13
+ADDED from AndroidManifest.xml:141:13
 action#ginlemon.smartlauncher.THEMES
-ADDED from AndroidManifest.xml:141:17
-	android:name
-		ADDED from AndroidManifest.xml:141:25
-action#ginlemon.smartlauncher.BUBBLESTYLE
 ADDED from AndroidManifest.xml:142:17
 	android:name
 		ADDED from AndroidManifest.xml:142:25
-action#ginlemon.smartlauncher.BUBBLEICONS
+action#ginlemon.smartlauncher.BUBBLESTYLE
 ADDED from AndroidManifest.xml:143:17
 	android:name
 		ADDED from AndroidManifest.xml:143:25
-action#ginlemon.smartlauncher.CLOCKS
+action#ginlemon.smartlauncher.BUBBLEICONS
 ADDED from AndroidManifest.xml:144:17
 	android:name
 		ADDED from AndroidManifest.xml:144:25
-action#ginlemon.smartlauncher.CLOCKFONTS
+action#ginlemon.smartlauncher.CLOCKS
 ADDED from AndroidManifest.xml:145:17
 	android:name
 		ADDED from AndroidManifest.xml:145:25
-intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+com.android.dxtop.launcher.THEME+com.fede.launcher.THEME_ICONPACK+com.rogro.GDE.THEME.1+mobi.bbase.ahome.THEME+org.adw.launcher.THEMES
-ADDED from AndroidManifest.xml:148:13
-action#mobi.bbase.ahome.THEME
-ADDED from AndroidManifest.xml:151:17
+action#ginlemon.smartlauncher.CLOCKFONTS
+ADDED from AndroidManifest.xml:146:17
 	android:name
-		ADDED from AndroidManifest.xml:151:25
-action#com.rogro.GDE.THEME.1
+		ADDED from AndroidManifest.xml:146:25
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+com.android.dxtop.launcher.THEME+com.fede.launcher.THEME_ICONPACK+com.rogro.GDE.THEME.1+mobi.bbase.ahome.THEME+org.adw.launcher.THEMES
+ADDED from AndroidManifest.xml:149:13
+action#mobi.bbase.ahome.THEME
 ADDED from AndroidManifest.xml:152:17
 	android:name
 		ADDED from AndroidManifest.xml:152:25
-action#com.android.dxtop.launcher.THEME
+action#com.rogro.GDE.THEME.1
 ADDED from AndroidManifest.xml:153:17
 	android:name
 		ADDED from AndroidManifest.xml:153:25
+action#com.android.dxtop.launcher.THEME
+ADDED from AndroidManifest.xml:154:17
+	android:name
+		ADDED from AndroidManifest.xml:154:25
 intent-filter#android.intent.category.DEFAULT+com.rogro.GDE.THEME.1+mobi.bbase.ahome.THEME+org.adw.launcher.icons.ACTION_PICK_ICON
-ADDED from AndroidManifest.xml:157:13
+ADDED from AndroidManifest.xml:158:13
 intent-filter#android.intent.category.DEFAULT+cdproductions.crazyicons.TWO
-ADDED from AndroidManifest.xml:163:13
+ADDED from AndroidManifest.xml:164:13
 action#cdproductions.crazyicons.TWO
-ADDED from AndroidManifest.xml:164:17
+ADDED from AndroidManifest.xml:165:17
 	android:name
-		ADDED from AndroidManifest.xml:164:25
+		ADDED from AndroidManifest.xml:165:25
 intent-filter#com.daeva112.manager.MAIN+com.daeva112.manager.THEME
-ADDED from AndroidManifest.xml:167:13
+ADDED from AndroidManifest.xml:168:13
 action#com.daeva112.manager.MAIN
-ADDED from AndroidManifest.xml:168:17
-	android:name
-		ADDED from AndroidManifest.xml:168:25
-category#com.daeva112.manager.THEME
 ADDED from AndroidManifest.xml:169:17
 	android:name
-		ADDED from AndroidManifest.xml:169:27
+		ADDED from AndroidManifest.xml:169:25
+category#com.daeva112.manager.THEME
+ADDED from AndroidManifest.xml:170:17
+	android:name
+		ADDED from AndroidManifest.xml:170:27
 intent-filter#android.intent.category.DEFAULT+com.gau.go.launcherex.theme
-ADDED from AndroidManifest.xml:171:13
+ADDED from AndroidManifest.xml:172:13
 action#com.gau.go.launcherex.theme
-ADDED from AndroidManifest.xml:172:17
+ADDED from AndroidManifest.xml:173:17
 	android:name
-		ADDED from AndroidManifest.xml:172:25
+		ADDED from AndroidManifest.xml:173:25
 activity#com.google.android.gms.ads.AdActivity
-ADDED from AndroidManifest.xml:178:9
+ADDED from AndroidManifest.xml:179:9
 	android:configChanges
-		ADDED from AndroidManifest.xml:179:13
+		ADDED from AndroidManifest.xml:180:13
 	android:name
-		ADDED from AndroidManifest.xml:178:19
+		ADDED from AndroidManifest.xml:179:19
 provider#com.numix.icons_circle.activity.DocksProvider
-ADDED from AndroidManifest.xml:183:9
+ADDED from AndroidManifest.xml:184:9
 	android:authorities
-		ADDED from AndroidManifest.xml:185:13
+		ADDED from AndroidManifest.xml:186:13
 	android:name
-		ADDED from AndroidManifest.xml:184:13
+		ADDED from AndroidManifest.xml:185:13
 meta-data#com.google.android.gms.version
 ADDED from com.google.android.gms:play-services:6.5.87:21:9
 	android:value

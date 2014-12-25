@@ -10,6 +10,7 @@ import com.numix.icons_circle.R;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.ImageView;
 
@@ -30,11 +31,14 @@ public class SplashScreenActivity extends Activity {
     private InterstitialAd interstitial;
     private Timer waitTimer;
     private boolean interstitialCanceled = false;
+    SharedPreferences prefs = null;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        prefs = getSharedPreferences("com.numix.icons_circle", MODE_PRIVATE);
 
         interstitial = new InterstitialAd(this);
         interstitial.setAdUnitId(AD_UNIT_ID);
@@ -86,6 +90,11 @@ public class SplashScreenActivity extends Activity {
     @Override
     public void onResume() {
         super.onResume();
+        // Check if it's first launch. If yes, do NOT display ads.
+        if (prefs.getBoolean("firstrun", true)) {
+            prefs.edit().putBoolean("firstrun", false).commit();
+            startMainActivity();
+        }
         if (interstitial.isLoaded()) {
             // The interstitial finished loading while the app was in the background. It's up to you what
             // the behavior should be when they return. In this example, we show the interstitial since

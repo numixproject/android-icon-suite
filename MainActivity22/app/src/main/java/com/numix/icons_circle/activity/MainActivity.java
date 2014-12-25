@@ -147,4 +147,5 @@ public class MainActivity extends Activity {
             i.setData(Uri.parse(url));
             startActivity(i);
         }
+
     }

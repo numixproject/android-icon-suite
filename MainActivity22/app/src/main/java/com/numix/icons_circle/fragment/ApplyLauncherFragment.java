@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.numix.icons_circle.R;
+import com.numix.icons_circle.activity.MainActivity;
 import com.numix.icons_circle.adapter.ApplyLauncherAdapter;
 
 import android.app.Activity;
@@ -237,7 +238,7 @@ public class ApplyLauncherFragment extends Fragment {
 		                .makeText(getActivity().getBaseContext(), getResources().getString
 		                		(R.string.finish_apply), Toast.LENGTH_LONG);
 						appliedGo.show();
-						startActivity(goApply); 
+						startActivity(goApply);
 				   } else {
 						Intent goMarket = new Intent(Intent.ACTION_VIEW);
 						goMarket.setData(Uri
