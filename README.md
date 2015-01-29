@@ -15,5 +15,5 @@ Our code is designed for Android Studio. To build it correctly:
 - Select MainActivity22 folder;
 - Enjoy!
 
-Icons licensed under CC-SA.
+Icons licensed under CC-BY.
 Java code licensed under GPL-3.0+
