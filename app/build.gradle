@@ -11,10 +11,6 @@ android {
     }
 
     buildTypes {
-        release {
-            runProguard false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
-        }
     }
 }
 
@@ -22,4 +18,5 @@ dependencies {
     compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
     compile 'com.android.support:support-v4:+'
     compile files('libs/pkrequestmanager.jar')
+    compile 'com.google.android.gms:play-services:6.+'
 }
