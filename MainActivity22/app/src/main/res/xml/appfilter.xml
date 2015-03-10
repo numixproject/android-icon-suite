@@ -228,7 +228,8 @@
 		<item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.UIWebViewActivity}" drawable="com_netflix_mediaclient"/>
         <item component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.UIWebViewTabletActivity}" drawable="com_netflix_mediaclient"/>
 		<item component="ComponentInfo{jackpal.androidterm/jackpal.androidterm.Term}" drawable="jackpal_androidterm"/>
-		<item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="com_android_camera"/>
+        <item component="ComponentInfo{com.android.terminal/com.android.terminal.TerminalActivity}" drawable="jackpal_androidterm"/>
+        <item component="ComponentInfo{com.android.camera/com.android.camera.Camera}" drawable="com_android_camera"/>
 		<item component="ComponentInfo{com.android.camera2/com.android.camera.CameraLauncher}" drawable="com_android_camera"/>
         <item component="ComponentInfo{com.google.android.GoogleCamera/com.android.camera.CameraLauncher}" drawable="com_android_camera"/>
         <item component="ComponentInfo{com.sec.android.app.camera/com.sec.android.app.camera.Camera}" drawable="com_android_camera"/>
