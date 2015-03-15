@@ -1,21 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
-** Copyright 2013, the1dynasty
-**
-** Licensed under the Apache License, Version 2.0 (the "License");
-** you may not use this file except in compliance with the License.
-** You may obtain a copy of the License at
-**
-**     http://www.apache.org/licenses/LICENSE-2.0
-**
-** Unless required by applicable law or agreed to in writing, software
-** distributed under the License is distributed on an "AS IS" BASIS,
-** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-** See the License for the specific language governing permissions and
-** limitations under the License.
+** Copyright 2015, The Numix Project
 
-************ Last version published: 2.0.1 - 6 ************
+
+************ Last published version on Google Play: 2.0.4 - 9 ************
 -->
 
 <manifest
@@ -44,18 +33,13 @@
         android:xlargeScreens="true"
         android:resizeable="true" />
 
-    <!-- minSDK set to run on Android 2.3 and newer
-    	targetSDK set to run on latest version. This ensures
-    	the latest graphics are used on newer devices -->
-    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="21"/>
-
     <!-- Change the style to something else if you want a different look
     	Please refer to ABS Styles for choosing a style you want -->
     <application
         android:allowBackup="true"
         android:label="@string/app_name"
         android:icon="@drawable/icon"
-        android:theme="@style/AppTheme"
+        android:theme="@style/MyNavigationDrawerTheme"
         android:largeHeap="true" >
     <!-- Use AppTheme_Dark for the dark version of some windows -->
 
@@ -78,7 +62,7 @@
 		<activity
      		android:name="com.numix.icons_circle.activity.ApplyLauncherMain"
             android:label="@string/launcher_title"
-            android:theme="@style/Theme.Sherlock.Light.Dialog" >
+            android:theme="@style/Base.Theme.AppCompat.Dialog" >
         </activity>
 
         <activity

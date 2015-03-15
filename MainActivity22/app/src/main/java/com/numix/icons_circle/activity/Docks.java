@@ -1,6 +1,7 @@
 package com.numix.icons_circle.activity;
 
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
@@ -13,13 +14,13 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 
-import com.actionbarsherlock.app.SherlockActivity;
+import android.app.Activity;
 
 import java.util.ArrayList;
 
 import com.numix.icons_circle.R;
 
-public class Docks extends SherlockActivity implements AdapterView.OnItemClickListener{
+public class Docks extends Activity implements AdapterView.OnItemClickListener{
     public Uri CONTENT_URI;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

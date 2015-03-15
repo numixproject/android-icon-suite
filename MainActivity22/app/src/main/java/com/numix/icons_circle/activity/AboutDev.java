@@ -1,6 +1,8 @@
 package com.numix.icons_circle.activity;
 
 import com.numix.icons_circle.R;
+
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.net.Uri;
@@ -11,10 +13,8 @@ import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.actionbarsherlock.app.SherlockActivity;
-import com.actionbarsherlock.view.Window;
 
-public class AboutDev extends SherlockActivity {
+public class AboutDev extends Activity {
 
 	private ImageButton
     twitter,
@@ -25,8 +25,7 @@ public class AboutDev extends SherlockActivity {
 	@Override
 	  public void onCreate(Bundle savedInstanceState) {
 	  super.onCreate(savedInstanceState);
-	  noTitle();
-	  setContentView(R.layout.about_dev);  
+	  setContentView(R.layout.about_dev);
       
       Typeface font1 = Typeface.createFromAsset(getAssets(), "RobotoSlab-Regular.ttf");
       TextView txt1 = (TextView) findViewById(R.id.devFont);
@@ -80,12 +79,6 @@ public class AboutDev extends SherlockActivity {
       });
 }
 
-	// Hides the title bar
-	public void noTitle() {
-		requestWindowFeature(Window.FEATURE_NO_TITLE);
-		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, 
-				WindowManager.LayoutParams.FLAG_FULLSCREEN);
-	}
 	
 	// This will return the Activity to the Main Screen when the app is in a Paused (not used) state
 	@Override
