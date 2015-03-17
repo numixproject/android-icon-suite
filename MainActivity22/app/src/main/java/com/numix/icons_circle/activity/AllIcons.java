@@ -20,146 +20,43 @@ import java.util.Locale;
 
 import com.numix.icons_circle.R;
 import com.numix.icons_circle.fragment.IconFragmentAll;
-import com.numix.icons_circle.fragment.IconFragmentGames;
-import com.numix.icons_circle.fragment.IconFragmentLatest;
-import com.numix.icons_circle.fragment.IconFragmentMisc;
-import com.numix.icons_circle.fragment.IconFragmentPlay;
-import com.numix.icons_circle.fragment.IconFragmentSystem;
-import com.numix.icons_circle.util.PagerSlidingTabStrip;
 
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.util.TypedValue;
 
 
-public class AllIcons extends FragmentActivity{
-
-	private PagerSlidingTabStrip tabs;
-	//private ViewPager pager;
-	private IconPagerAdapter adapter;
-
-	// Flag Constants
-	public static final int LATEST = 0;
-	public static final int ALL = 1;
-	public static final int SYSTEM = 2;
-	public static final int PLAY = 3;
-	public static final int GAMES = 4;
-	public static final int MISC = 5;
-	
-		//This activity is what displays the icon fragments (the icon categories) see iconfragment for the tabs themselves
-	   @Override
-	    public void onCreate(Bundle savedInstanceState) {
-
-	        super.onCreate(savedInstanceState);
-	        setContentView(R.layout.all_icons_layout);
-
-	        
-	        tabs = (PagerSlidingTabStrip) findViewById(R.id.tabs);
-			ViewPager pager = (ViewPager) findViewById(R.id.pager);
-		
-			adapter = new IconPagerAdapter(getSupportFragmentManager());
-
-			pager.setAdapter(adapter);
-			
-
-			final int pageMargin = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 4, getResources()
-					.getDisplayMetrics());
-			pager.setPageMargin(pageMargin);
-
-			tabs.setViewPager(pager);
-
-	        // Set Present tab as default
-	        pager.setCurrentItem(1);
-
-	    }
-	   
-	   /** TODO 
-	    * Add search function to Theme Icons section
-	    */
-	   /*
-	   @Override
-	   public boolean onCreateOptionsMenu(Menu menu) {
-	       getMenuInflater().inflate(R.menu.main_search, menu);
-	       MenuItem searchItem = menu.findItem(R.id.action_search);
-	       SearchView searchView = (SearchView) MenuItemCompat.getActionView(searchItem);
-	       // Configure the search info and add any event listeners
-	      
-	       return super.onCreateOptionsMenu(menu);
-	   }
-		*/
+import it.neokree.materialnavigationdrawer.MaterialNavigationDrawer;
+import it.neokree.materialnavigationdrawer.elements.MaterialSection;
 
 
-	public class IconPagerAdapter extends FragmentPagerAdapter {
+public class AllIcons extends MaterialNavigationDrawer {
 
-		private final int[] TITLES = 
-			{ 
-				R.string.icons_latest, 
-				R.string.icons_all,  
-				R.string.icons_system, 
-				R.string.icons_play, 
-				R.string.icons_games,
-				R.string.icons_misc
-			};
+    @Override
+    public void init(Bundle savedInstanceState) {
+        MaterialSection home = newSection("Numix Circle", new IconFragmentAll());
 
-		public IconPagerAdapter(FragmentManager fm) {
-			super(fm);
-		}
+        // Set Drawer Header Image
+        setDrawerHeaderImage(R.drawable.background);
 
-		@Override
-		public CharSequence getPageTitle(int position) {
-			Locale l = Locale.getDefault();
-			switch (position) {
-			case LATEST:
-				return getString(R.string.icons_latest).toUpperCase(l);
-			case ALL:
-				return getString(R.string.icons_all).toUpperCase(l);
-			case SYSTEM:
-				return getString(R.string.icons_system).toUpperCase(l);
-			case PLAY:
-				return getString(R.string.icons_play).toUpperCase(l);
-			case GAMES:
-				return getString(R.string.icons_games).toUpperCase(l);
-			case MISC:
-				return getString(R.string.icons_misc).toUpperCase(l);	
-			}
-			return null;
-		}
+        // Define new sections
+        this.addSection(home);
 
-		@Override
-		public Fragment getItem(int position) {
-			Fragment f = new Fragment();
-			switch(position){
-			case LATEST:
-				f= new IconFragmentLatest();	
-				break;
-			case ALL:
-				f= new IconFragmentAll();	
-				break;
-			case SYSTEM:
-				f= new IconFragmentSystem();
-				break;
-			case PLAY:
-				f= new IconFragmentPlay();	
-				break;
-			case GAMES:
-				f= new IconFragmentGames();	
-				break;	
-			case MISC:
-				f= new IconFragmentMisc();	
-				break;	
-			}
-			return f;
-		}
-		
-		@Override
-		public int getCount() {
-			return TITLES.length;
-		}	
-		
-	}
+        this.addSection(this.newSection("Back home", new MainActivity()));
 
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
+        // set the indicator for child fragments
+        // N.B. call this method AFTER the init() to leave the time to instantiate the ActionBarDrawerToggle
+        this.setHomeAsUpIndicator(R.drawable.ic_action_ic_arrow_back_24px);
+    }
+
+    @Override
+    public void onHomeAsUpSelected() {
+        // when the back arrow is selected this method is called
+
+    }
 }

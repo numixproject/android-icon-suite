@@ -71,5 +71,5 @@
     
     <dimen name="ab_height">48dp</dimen>
     
-    <dimen name="allapps_icon_preview">144dp</dimen>
+    <dimen name="allapps_icon_preview">64dp</dimen>
 </resources>

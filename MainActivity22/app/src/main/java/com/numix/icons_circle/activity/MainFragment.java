@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.ScrollView;
 
 
 import com.numix.icons_circle.R;
@@ -23,7 +24,7 @@ public class MainFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         FragmentActivity faActivity  = (FragmentActivity)    super.getActivity();
         // Replace LinearLayout by the type of the root element of the layout you're trying to load
-        LinearLayout llLayout    = (LinearLayout)    inflater.inflate(R.layout.main, container, false);
+        ScrollView llLayout = (ScrollView)    inflater.inflate(R.layout.main, container, false);
         llLayout.findViewById(R.id.mainLayout);
 
         return llLayout; // We must return the loaded Layout
@@ -37,12 +38,12 @@ public class MainFragment extends Fragment {
         startActivity(launcher);
     }
 
-    public void showBackground() {
+    public void showBackground(View v) {
         Intent wall = new Intent(super.getActivity(), Wallpaper.class);
         startActivity(wall);
     }
 
-    public void requestIcons() {
+    public void requestIcons(View v) {
         boolean installed = appInstalledOrNot("org.numixproject.iconsubmit");
 
         if (installed) {
@@ -78,13 +79,6 @@ public class MainFragment extends Fragment {
             app_installed = false;
         }
         return app_installed ;
-    }
-
-    public void googleplay() {
-        String url = "https://play.google.com/store/apps/developer?id=Numix";
-        Intent i = new Intent(Intent.ACTION_VIEW);
-        i.setData(Uri.parse(url));
-        startActivity(i);
     }
 
 }
