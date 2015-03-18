@@ -7,6 +7,7 @@ package com.numix.icons_circle.activity;
         import android.net.Uri;
         import android.os.Bundle;
         import android.view.View;
+        import android.widget.Toast;
 
         import it.neokree.materialnavigationdrawer.MaterialNavigationDrawer;
         import it.neokree.materialnavigationdrawer.elements.MaterialSection;
@@ -30,7 +31,7 @@ public class MainActivity extends MaterialNavigationDrawer {
         // Define new sections
         this.addSection(home);
 
-        this.addSection(this.newSection("Our Icons", new IconFragmentAll()));
+        this.addSection(this.newSection("Icons", new IconFragmentAll()));
 
 
         this.addSection(newSection("About us",
@@ -47,7 +48,7 @@ public class MainActivity extends MaterialNavigationDrawer {
                 new MaterialSectionListener() {
                     @Override
                     public void onClick(MaterialSection section) {
-                        requestIcons(v);
+                        contactUsDialog();
                     }
                 }));
 
@@ -59,6 +60,32 @@ public class MainActivity extends MaterialNavigationDrawer {
     public void showIcons() {
         Intent intent = new Intent(this, AllIcons.class);
         startActivity(intent);
+    }
+
+    public void contactUsDialog() {
+        AlertDialog alertDialog = new AlertDialog.Builder(MainActivity.this).create();
+        alertDialog.setTitle("Please read");
+        alertDialog.setMessage("Do not send icon request via mail. Use the built in tool instead.");
+        alertDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "OK",
+                new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                        contactUs();
+                    }
+                });
+        alertDialog.show();
+
+    }
+
+    public void contactUs() {
+        Intent i = new Intent(Intent.ACTION_SEND);
+        i.setType("message/rfc822");
+        i.putExtra(Intent.EXTRA_EMAIL  , new String[]{"team@numixproject.org"});
+        try {
+            startActivity(Intent.createChooser(i, "Send mail..."));
+        } catch (android.content.ActivityNotFoundException ex) {
+            Toast.makeText(MainActivity.this, "There are no email clients installed.", Toast.LENGTH_SHORT).show();
+        }
     }
 
     public void applyTheme(View v) {
