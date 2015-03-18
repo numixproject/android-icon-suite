@@ -23,7 +23,7 @@ public class MainActivity extends MaterialNavigationDrawer {
 
     @Override
     public void init(Bundle savedInstanceState) {
-        MaterialSection home = newSection("Numix Circle", new MainFragment());
+        MaterialSection home = newSection("Numix Circle", R.drawable.ic_ic_home_24px, new MainFragment());
 
         // Set Drawer Header Image
         setDrawerHeaderImage(R.drawable.background);
@@ -31,20 +31,20 @@ public class MainActivity extends MaterialNavigationDrawer {
         // Define new sections
         this.addSection(home);
 
-        this.addSection(this.newSection("Icons", new IconFragmentAll()));
+        this.addSection(this.newSection("Icons", R.drawable.ic_ic_now_wallpaper_24px ,new IconFragmentAll()));
 
 
         this.addSection(newSection("About us",
-                // <!-- R.drawable.ic_ic_swap_horiz_24px -->,
+                R.drawable.ic_ic_info_24px,
                 new MaterialSectionListener() {
                     @Override
                     public void onClick(MaterialSection section) {
-                        requestIcons(v);
+                        openWebsite();
                     }
                 }));
 
         this.addSection(newSection("Contact us",
-                // <!-- R.drawable.ic_ic_swap_horiz_24px -->,
+                R.drawable.ic_ic_email_24px,
                 new MaterialSectionListener() {
                     @Override
                     public void onClick(MaterialSection section) {
@@ -52,10 +52,26 @@ public class MainActivity extends MaterialNavigationDrawer {
                     }
                 }));
 
+        this.addBottomSection(newSection("More apps...",
+                // <!-- R.drawable.ic_ic_swap_horiz_24px -->,
+                new MaterialSectionListener() {
+                    @Override
+                    public void onClick(MaterialSection section) {
+                        googleplay();
+                    }
+                }));
+
         fragment = (MainFragment)home.getTargetFragment();
     }
 
     // Methods to do actions
+
+    public void openWebsite() {
+        String url = "https://numixproject.org/";
+        Intent i = new Intent(Intent.ACTION_VIEW);
+        i.setData(Uri.parse(url));
+        startActivity(i);
+    }
 
     public void showIcons() {
         Intent intent = new Intent(this, AllIcons.class);
@@ -113,7 +129,7 @@ public class MainActivity extends MaterialNavigationDrawer {
         return app_installed ;
     }
 
-    public void googleplay(View v) {
+    public void googleplay() {
         String url = "https://play.google.com/store/apps/developer?id=Numix";
         Intent i = new Intent(Intent.ACTION_VIEW);
         i.setData(Uri.parse(url));

@@ -115,7 +115,7 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:paddingBottom="8dp"
-                android:onClick="showBackground"
+                android:onClick="requestIcons"
                 card_view:cardCornerRadius="4dp">
 
                 <LinearLayout

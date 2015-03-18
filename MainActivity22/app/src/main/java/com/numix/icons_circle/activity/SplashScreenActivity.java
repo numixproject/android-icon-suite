@@ -37,7 +37,7 @@ public class SplashScreenActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.splash);
         prefs = getSharedPreferences("com.numix.icons_circle", MODE_PRIVATE);
 
         interstitial = new InterstitialAd(this);
