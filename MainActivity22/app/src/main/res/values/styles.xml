@@ -1,10 +1,18 @@
 <resources>
     <style name="MyNavigationDrawerTheme" parent="MaterialNavigationDrawerTheme.Light.DarkActionBar.TranslucentKitKatStatusBar">
         <item name="colorPrimary">#d64937</item>
-        <item name="colorAccent">#22d64937</item>
+        <item name="colorPrimaryDark">#d64937</item>
+        <item name="colorAccent">#d64937</item>
         <item name="drawerType">@integer/DRAWERTYPE_IMAGE</item>
         <item name="rippleBackport">true</item>
         <item name="multipaneSupport">true</item>
         <item name="singleAccount">true</item>
+    </style>
+
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- customize the color palette -->
+        <item name="colorPrimary">#d64937</item>
+        <item name="colorPrimaryDark">#d64937</item>
+        <item name="colorAccent">#d64937</item>
     </style>
 </resources>

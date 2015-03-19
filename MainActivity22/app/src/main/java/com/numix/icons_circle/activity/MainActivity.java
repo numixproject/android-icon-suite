@@ -27,6 +27,9 @@ public class MainActivity extends MaterialNavigationDrawer {
 
         // Set Drawer Header Image
         setDrawerHeaderImage(R.drawable.background);
+        setBackPattern(MaterialNavigationDrawer.BACKPATTERN_BACK_TO_FIRST);
+        addMultiPaneSupport();
+        allowArrowAnimation();
 
         // Define new sections
         this.addSection(home);
