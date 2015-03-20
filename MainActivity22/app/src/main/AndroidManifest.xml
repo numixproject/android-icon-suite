@@ -4,14 +4,14 @@
 ** Copyright 2015, The Numix Project
 
 
-************ Last published version on Google Play: 2.1 - 10 ************
+************ Last published version on Google Play: 2.1.1 - 11 ************
 -->
 
 <manifest
 		xmlns:android="http://schemas.android.com/apk/res/android"
       	package="com.numix.icons_circle"
-      	android:versionCode="10"
-      	android:versionName="2.1"
+      	android:versionCode="11"
+      	android:versionName="2.1.1"
       	android:installLocation="auto">
     <!-- android:installLocation is set to "auto"
     change to "internalOnly" if you want it installed to the internal memory -->
