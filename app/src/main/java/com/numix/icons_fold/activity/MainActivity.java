@@ -141,7 +141,7 @@ public class MainActivity extends Activity {
         }
         @JavascriptInterface
         public void googleplay() {
-            String url = "https://play.google.com/store/apps/developer?id=Numix";
+            String url = "https://play.google.com/store/apps/developer?id=Numix%20Project%20Ltd.";
             Intent i = new Intent(Intent.ACTION_VIEW);
             i.setData(Uri.parse(url));
             startActivity(i);

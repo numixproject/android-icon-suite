@@ -15,14 +15,14 @@
 ** See the License for the specific language governing permissions and
 ** limitations under the License.
 
-************ Last version published: 2.0.2 - 7 ************
+************ Last version published: 2.0.3 - 14 ************
 -->
 
 <manifest
 		xmlns:android="http://schemas.android.com/apk/res/android"
       	package="com.numix.icons_fold"
-      	android:versionCode="13"
-      	android:versionName="2.0.2"
+      	android:versionCode="14"
+      	android:versionName="2.0.3"
       	android:installLocation="auto">
     <!-- android:installLocation is set to "auto"
     change to "internalOnly" if you want it installed to the internal memory -->

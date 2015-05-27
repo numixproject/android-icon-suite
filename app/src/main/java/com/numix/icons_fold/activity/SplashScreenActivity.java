@@ -26,7 +26,7 @@ public class SplashScreenActivity extends Activity {
     private static final int WAIT_TIME = 5000;
 
     // Your interstitial ad unit ID.
-    private static final String AD_UNIT_ID = "ca-app-pub-4742625114157019/1382887886";
+    private static final String AD_UNIT_ID = "ca-app-pub-2834532364021285/3080817058";
 
     private InterstitialAd interstitial;
     private Timer waitTimer;
