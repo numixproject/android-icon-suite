@@ -31,7 +31,9 @@
   	<string name="launcher_next">Next</string>
   	<string name="launcher_go">Go</string>
   	<string name="launcher_holo">Holo</string>
-  	<!-- LAUNCHER PACKAGE NAMES -->
+	<string name="launcher_cm">Cyanogenmod</string>
+
+	<!-- LAUNCHER PACKAGE NAMES -->
   	<string name="launcher_apex_package">com.anddoes.launcher</string>
   	<string name="launcher_nova_package">com.teslacoilsw.launcher</string>
   	<string name="launcher_aviate_package">com.tul.aviate</string>
@@ -41,7 +43,10 @@
   	<string name="launcher_next_package">com.gtp.nextlauncher</string>
   	<string name="launcher_go_package">com.gau.go.launcherex</string>
   	<string name="launcher_holo_package">com.mobint.hololauncher</string>
-  	<!-- LAUNCHER MARKET URL -->
+	<string name="launcher_cm_package">org.cyanogenmod.theme.chooser</string>
+
+
+	<!-- LAUNCHER MARKET URL -->
   	<string name="launcher_apex_market">market://details?id=com.anddoes.launcher</string>
   	<string name="launcher_nova_market">market://details?id=com.teslacoilsw.launcher</string>
   	<string name="launcher_aviate_market">market://details?id=com.tul.aviate</string>

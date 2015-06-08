@@ -35,6 +35,7 @@ public class ApplyLauncherAdapter extends BaseAdapter
 	public static final int NEXT = 6;
 	public static final int GO = 7;
 	public static final int HOLO = 8;
+	public static final int CM = 9;
 
 	public ApplyLauncherAdapter(Context context, List<Integer> gridItem) {
 		this.gridItem = gridItem;
@@ -129,6 +130,12 @@ public class ApplyLauncherAdapter extends BaseAdapter
 				setInstalledStatus(holder, res.getString(R.string.launcher_holo_package));
 				holder.title.setTextColor(res.getColor(R.color.apply_launcher_text));
 				holder.launcher_Image.setImageResource(R.mipmap.banner_holo);
+				break;
+			case CM:
+				holder.title.setText(res.getString(R.string.launcher_cm));
+				setInstalledStatus(holder, res.getString(R.string.launcher_cm_package));
+				holder.title.setTextColor(res.getColor(R.color.apply_launcher_text));
+				holder.launcher_Image.setImageResource(R.mipmap.banner_cm);
 				break;
 		}
 			

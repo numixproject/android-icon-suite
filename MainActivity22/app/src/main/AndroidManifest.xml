@@ -10,8 +10,9 @@
 <manifest
 		xmlns:android="http://schemas.android.com/apk/res/android"
       	package="com.numix.icons_circle"
-      	android:versionCode="12"
-      	android:versionName="2.1.2"
+      	android:versionCode="13"
+      	android:versionName="2.2.0
+      	"
       	android:installLocation="auto">
     <!-- android:installLocation is set to "auto"
     change to "internalOnly" if you want it installed to the internal memory -->

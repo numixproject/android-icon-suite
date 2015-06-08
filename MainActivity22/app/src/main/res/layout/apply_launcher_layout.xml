@@ -13,7 +13,7 @@
 	    android:layout_height="match_parent"
 	    android:orientation="vertical"
 	    android:padding="@dimen/list_icon"
-    	android:gravity="center" 
+    	android:gravity="center"
     	tools:context="gridview.Main" >
 
 	<ImageView
@@ -36,7 +36,7 @@
 	    android:textColor="@color/list_title_color"
 	    android:textSize="@dimen/grid_title_text"
 	    tools:ignore="HardcodedText" />
-	
+
 </RelativeLayout>
 
 -->
@@ -97,7 +97,7 @@
             android:layout_alignRight="@+id/list_image"
             android:textSize="@dimen/text_small_lg"
             android:text="Installed" />
-        
+
     </RelativeLayout>
 
 </RelativeLayout>

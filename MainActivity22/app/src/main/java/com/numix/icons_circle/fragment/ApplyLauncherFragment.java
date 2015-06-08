@@ -52,6 +52,7 @@ public class ApplyLauncherFragment extends Fragment {
 		applyLauncher.add(ApplyLauncherAdapter.NEXT);
 		applyLauncher.add(ApplyLauncherAdapter.GO);
 		applyLauncher.add(ApplyLauncherAdapter.HOLO);
+		applyLauncher.add(ApplyLauncherAdapter.CM);
 
 		ApplyLauncherAdapter adapter = new ApplyLauncherAdapter(getActivity(),
 				applyLauncher);
@@ -277,6 +278,23 @@ public class ApplyLauncherFragment extends Fragment {
 						failedHolo.show();
 					}
 					break;
+
+					case ApplyLauncherAdapter.CM:
+                        Intent cm = new Intent("android.intent.action.MAIN");
+                        cm.setComponent(new ComponentName("org.cyanogenmod.theme.chooser", "org.cyanogenmod.theme.chooser.ChooserActivity"));
+                        cm.putExtra("pkgName", getActivity().getApplicationContext().getPackageName());
+                        cm.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+						try {
+                            getActivity().getApplicationContext().startActivity(cm);
+                        } catch (ActivityNotFoundException e) {
+							Toast failedCm = Toast
+									.makeText(
+											getActivity().getBaseContext(),
+											"Unable find CM Theme Engine on your phone, sorry.",
+											Toast.LENGTH_SHORT);
+							failedCm.show();
+						}
+						break;
 				}
 			}
 		});
