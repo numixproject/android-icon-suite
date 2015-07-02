@@ -1,6 +1,7 @@
 package com.numix.icons_circle.activity;
 
 
+import com.facebook.FacebookSdk;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
@@ -33,12 +34,14 @@ public class SplashScreenActivity extends Activity {
     private boolean interstitialCanceled = false;
     SharedPreferences prefs = null;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash);
         prefs = getSharedPreferences("com.numix.icons_circle", MODE_PRIVATE);
+
+        // Initialize Facebook SDK
+        FacebookSdk.sdkInitialize(getApplicationContext());
 
         interstitial = new InterstitialAd(this);
         interstitial.setAdUnitId(AD_UNIT_ID);

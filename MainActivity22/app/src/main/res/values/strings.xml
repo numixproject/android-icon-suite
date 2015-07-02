@@ -38,5 +38,6 @@
 	<bool name="enableIconPack">true</bool>
 	<bool name="enableDockPack">false</bool>
 	<string name="go_applied">Thanks for using Numix Icon Theme - Circle. Your theme is being set!</string>
+	<string name="facebook_app_id">1027356003958231</string>
 		
 </resources>

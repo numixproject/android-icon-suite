@@ -1,6 +1,0 @@
-$(window).load(function() {
-var wallpaper = document.getElementById('wallpaper');
-wallpaper.onclick = function() {
-    Android.showBackground();
-}    
-});
