@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+** Copyright 2013, the1dynasty and Pkmmte
+
+--> 
+  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+    	android:id="@+id/container"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:padding="@dimen/list_icon"
+    	android:gravity="center" 
+    	tools:context="com.numix.icons_circle.activity.MainActivity" >
+
+			<view.TouchHighlightImageButton
+			    android:id="@+id/thumb_button"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center"
+			    android:contentDescription="@string/content_description"
+			    android:scaleType="centerCrop"
+			    android:src="@mipmap/icon_apex" />
+
+			<TextView
+			    android:id="@+id/title"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center"
+			    android:padding="@dimen/padding_new_icons_name"
+			    android:text="Community"
+			    android:textColor="@color/folder_title_color"
+			    android:textSize="@dimen/grid_title_text"
+			    tools:ignore="HardcodedText" />
+	
+</LinearLayout>

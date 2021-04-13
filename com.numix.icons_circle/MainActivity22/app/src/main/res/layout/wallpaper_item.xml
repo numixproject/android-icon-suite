@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+** Copyright 2013, The Android Open Source Project
+
+-->
+
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wallpaper_image"
+    android:contentDescription="@string/content_description"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gallery_item_background"
+    android:scaleType="fitXY"
+    android:focusable="true" />
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+** Copyright 2013, the1dynasty and Pkmmte
+
+--> 
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- This is your GridView -->
+	<com.numix.icons_circle.util.PKScrollGridView
+	    android:id="@+id/grid"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:numColumns="auto_fit"
+	    android:columnWidth="70dp"
+	    android:stretchMode="columnWidth"
+	    android:divider="@color/black"
+	    android:dividerHeight="0dp"
+	    android:listSelector="@color/transparent"
+	    android:cacheColorHint="@color/transparent" 
+	    tools:context="gridview.NewIconsMain" />
+
+	<!-- This is your zoomed in image after you click on a GridView item -->
+    <ImageView
+        android:id="@+id/expanded_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:contentDescription="@string/content_description" />
+    
+</RelativeLayout>

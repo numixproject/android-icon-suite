@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+** Copyright 2015, The Numix Project
+
+-->
+
+<!-- Be sure to edit these strings according to how your requirements -->
+
+<resources>
+
+		<!-- This link will appear at the end of the theme description -->
+	<string name="app_link">https://play.google.com/store/apps/details?id=com.numix.icons_circle</string>
+	
+	<string name="developer_link">http://www.numixproject.org/</string>
+	<string name="developer_name">Icon pack from Numix Project</string>
+	<string name="dev_name">Numix Project</string>
+	<string name="dev_bio_title">MORE ABOUT Numix</string>
+	<string name="dev_email">numixdev@gmail.com</string>
+	
+	<string name="theme_description_app">"Theme with icons mostly pastel coloured with shapes both square and circles."</string>
+
+	<string name="dev_description">Numix is a modern and stylish way to give your desktop/phone/tablet a warm and jazzy feel.</string>
+	
+	<string name="dev_bio">More information at http://www.numixproject.org </string>
+	
+	<string name="share_text">"Check out Numix's new icon theme for Android!"</string>
+	<string name="email_subject">Numix Circle</string>
+	
+</resources>

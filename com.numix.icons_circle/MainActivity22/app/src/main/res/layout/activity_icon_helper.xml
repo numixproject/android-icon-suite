@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#222222"
+    >
+
+    
+	<TextView
+        android:id="@+id/textBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="test"
+        android:textSize="15sp" />
+    <LinearLayout 
+        android:id="@+id/footer" 
+        android:layout_width="fill_parent"
+    	android:layout_height="68dp" 
+    	android:orientation="horizontal"
+    	android:layout_alignParentBottom="true"
+    	android:padding="8dp">
+    <Button android:id="@+id/findSelected" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Send"
+        android:textStyle="bold"/>
+</LinearLayout>
+	
+    <ListView
+        android:id="@+id/listApps"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"    
+        android:layout_above="@id/footer"
+        android:layout_below="@id/textBox" />
+    
+</RelativeLayout >

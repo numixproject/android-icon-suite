@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+** Copyright 2015, The Numix Project
+
+--> 
+ 
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@color/button_pressed_color" />
+    <item android:drawable="@color/app_bg" />
+</selector>

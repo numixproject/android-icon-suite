@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+** Copyright 2015, The Numix Project
+
+-->
+
+<view.ScrollGridView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:id="@+id/grid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:numColumns="1"
+    android:divider="@color/transparent"
+    android:dividerHeight="0dp"
+    android:listSelector="@color/transparent"
+    android:cacheColorHint="@color/transparent" 
+    tools:context="com.numix.icons_circle.activity.MainActivity" />

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/mainLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_theme"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:paddingBottom="8dp"
+                android:onClick="applyTheme"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/info_text_theme"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/background1"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"
+                        />
+
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:textSize="24sp"
+                        android:text="Apply Theme"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="16dp"
+                        android:paddingBottom="16dp"
+                        android:textSize="16sp"
+                        android:text="Choose from the launchers to apply the theme!"/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="16dp" />
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_background"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:paddingBottom="8dp"
+                android:onClick="showBackground"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/info_text_background"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/background"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"
+                        />
+
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:textSize="24sp"
+                        android:text="Wallpaper"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="16dp"
+                        android:paddingBottom="16dp"
+                        android:textSize="16sp"
+                        android:text="Apply the official theme wallpaper."/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="16dp" />
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view_report"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:paddingBottom="8dp"
+                android:onClick="requestIcons"
+                card_view:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="top"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/info_text_report"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/background2"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"
+                        />
+
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="16dp"
+                        android:textSize="24sp"
+                        android:text="Request Icons"/>
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="16dp"
+                        android:paddingBottom="16dp"
+                        android:textSize="16sp"
+                        android:text="Missing icons? Send us your request."/>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            </LinearLayout>
+    </ScrollView>

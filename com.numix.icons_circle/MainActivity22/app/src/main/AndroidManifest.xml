@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+** Copyright 2015, Numix Project Ltd.
+-->
+
+<manifest
+		xmlns:android="http://schemas.android.com/apk/res/android"
+      	package="com.numix.icons_circle"
+      	android:versionCode="14"
+      	android:versionName="2.2.1"
+      	android:installLocation="auto">
+    <!-- android:installLocation is set to "auto"
+    change to "internalOnly" if you want it installed to the internal memory -->
+
+    <!-- meta-data required for Facebook Audience Network -->
+    <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
+
+    <!-- Permission required for setting the wallpaper -->
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER_HINTS" />
+
+    <!-- Google Mobile Ads permissions. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- This lets this code work on any screen size -->
+    <supports-screens
+        android:anyDensity="true"
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:xlargeScreens="true"
+        android:resizeable="true" />
+
+    <!-- Change the style to something else if you want a different look
+    	Please refer to ABS Styles for choosing a style you want -->
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/icon"
+        android:theme="@style/MyNavigationDrawerTheme"
+        android:largeHeap="true" >
+    <!-- Use AppTheme_Dark for the dark version of some windows -->
+
+    <!-- Main Activity that launches when you open the app from the drawer -->
+        <activity
+            android:name="com.numix.icons_circle.activity.SplashScreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.numix.icons_circle.activity.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+    <!-- This is the Activity Dialog that pops up when selecting to apply your Icon Pack
+    	Remove android:theme line if you want it to open as its own Activity and NOT a popup -->
+		<activity
+     		android:name="com.numix.icons_circle.activity.ApplyLauncherMain"
+            android:label="@string/launcher_title"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" >
+        </activity>
+
+        <activity
+            android:name="com.numix.icons_circle.activity.AllIcons"/>
+
+        <activity
+            android:name="com.numix.icons_circle.activity.Wallpaper"
+            android:label="@string/app_name"
+            android:icon="@drawable/icon_wall"
+            android:theme="@style/Theme.MyTheme"
+            android:finishOnCloseSystemDialogs="true">
+            <intent-filter>
+                <!--
+                ** The commented out line below determines if the Icon Pack shows up as an
+                ** icon in the launchers wallpaper picker. Remove the commented parts at the beginning
+                ** and end to enable it. Note: If you're using Apex, you will still see the list
+                ** of wallpapers by selecting Apex Wallpapers
+                -->
+                <action android:name="android.intent.action.SET_WALLPAPER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.numix.icons_circle.activity.Docks"
+            android:label="@string/app_name"
+            android:icon="@drawable/icon">
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+
+        <!-- This is where the magic happens for the Icon Picker and allowing the packs to show up -->
+        <activity
+				android:name="com.numix.icons_circle.activity.Icons"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="org.adw.launcher.THEMES" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.adw.launcher.icons.ACTION_PICK_ICON" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.anddoes.launcher.THEME" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.teslacoilsw.launcher.THEME" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.fede.launcher.THEME_ICONPACK" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.tsf.shell.themes" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="ginlemon.smartlauncher.THEMES" />
+                <action android:name="ginlemon.smartlauncher.BUBBLESTYLE" />
+                <action android:name="ginlemon.smartlauncher.BUBBLEICONS" />
+                <action android:name="ginlemon.smartlauncher.CLOCKS" />
+                <action android:name="ginlemon.smartlauncher.CLOCKFONTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+             </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="org.adw.launcher.THEMES" />
+                <action android:name="mobi.bbase.ahome.THEME" />
+                <action android:name="com.rogro.GDE.THEME.1" />
+                <action android:name="com.android.dxtop.launcher.THEME" />
+                <category android:name="com.fede.launcher.THEME_ICONPACK" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="org.adw.launcher.icons.ACTION_PICK_ICON" />
+                <action android:name="mobi.bbase.ahome.THEME" />
+                <action android:name="com.rogro.GDE.THEME.1" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cdproductions.crazyicons.TWO" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.daeva112.manager.MAIN" />
+                <category android:name="com.daeva112.manager.THEME" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.gau.go.launcherex.theme" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+		</activity>
+
+        <!-- Facebook Audience Network activity -->
+        <activity android:name="com.facebook.ads.InterstitialAdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+        <!-- Google Mobile Ads activity. -->
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+
+    <!-- android:authorities NEEDS to be changed manually for each new pack
+    	Failure to change name, will result in installation errors -->
+        <provider
+            android:name="com.numix.icons_circle.activity.DocksProvider"
+            android:authorities="com.numix.icons_circle.DocksProvider" />
+    </application>
+</manifest>
