@@ -1,0 +1,22 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.0.0"
+
+    defaultConfig {
+        applicationId "com.numix.icons_fold"
+        minSdkVersion 16
+        targetSdkVersion 21
+    }
+
+    buildTypes {
+    }
+}
+
+dependencies {
+    compile 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
+    compile 'com.android.support:support-v4:+'
+    compile files('libs/pkrequestmanager.jar')
+    compile 'com.google.android.gms:play-services:7.3.0'
+}
