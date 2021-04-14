@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item 
+    android:id="@+id/more" 
+    android:showAsAction="always" 
+    android:icon="@drawable/menu_more_overflow" 
+    android:title="@string/more_overflow">
+    
+    <menu>
+	    <item
+	        android:id="@+id/app"
+	        android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
+	        android:showAsAction="never"
+	        android:title="@string/title_app"/>
+	    
+	    <item
+	        android:id="@+id/allIconsButton"
+	        android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
+	        android:showAsAction="never"
+	        android:title="@string/title_all_icons"/>
+	
+	    <item
+	        android:id="@+id/shareButton"
+	        android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
+	        android:showAsAction="never"
+	        android:title="@string/share"/>
+	
+	    <item
+	        android:id="@+id/rateButton"
+	        android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
+	        android:showAsAction="never"
+	        android:title="@string/rateme"/>
+	
+	    <item
+	        android:id="@+id/emailButton"
+	        android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
+	        android:showAsAction="never"
+	        android:title="@string/email_dev"/>
+	
+	    <item
+	        android:id="@+id/aboutButton"
+	        android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
+	        android:showAsAction="never"
+	        android:title="@string/about_dev"/>
+	
+	    <item
+	        android:id="@+id/gplusButton"
+	        android:actionProviderClass="com.actionbarsherlock.widget.ShareActionProvider"
+	        android:showAsAction="never"
+	        android:title="@string/title_community"/>
+	</menu>
+</item>
+</menu>
